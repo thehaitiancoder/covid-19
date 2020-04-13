@@ -2,7 +2,6 @@ import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { HomeThreeComponent } from "./components/pages/home-three/home-three.component";
 import { AboutOneComponent } from "./components/pages/about-one/about-one.component";
-import { AboutTwoComponent } from "./components/pages/about-two/about-two.component";
 import { PreventionComponent } from "./components/pages/prevention/prevention.component";
 import { SpreadComponent } from "./components/pages/spread/spread.component";
 import { OutbreakComponent } from "./components/pages/outbreak/outbreak.component";
@@ -17,7 +16,6 @@ const routes: Routes = [
     { path: "", component: HomeThreeComponent },
     { path: "home-three", component: HomeThreeComponent },
     { path: "about-one", component: AboutOneComponent },
-    { path: "about-two", component: AboutTwoComponent },
     { path: "prevention", component: PreventionComponent },
     { path: "spread", component: SpreadComponent },
     { path: "outbreak", component: OutbreakComponent },

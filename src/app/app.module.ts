@@ -9,7 +9,6 @@ import { HomeThreeComponent } from "./components/pages/home-three/home-three.com
 import { HeaderThreeComponent } from "./components/layouts/header-three/header-three.component";
 import { OnepageNavbarComponent } from "./components/layouts/onepage-navbar/onepage-navbar.component";
 import { AboutOneComponent } from "./components/pages/about-one/about-one.component";
-import { AboutTwoComponent } from "./components/pages/about-two/about-two.component";
 import { PreventionComponent } from "./components/pages/prevention/prevention.component";
 import { SpreadComponent } from "./components/pages/spread/spread.component";
 import { OutbreakComponent } from "./components/pages/outbreak/outbreak.component";
@@ -29,7 +28,6 @@ import { ErrorComponent } from "./components/pages/error/error.component";
         HeaderThreeComponent,
         OnepageNavbarComponent,
         AboutOneComponent,
-        AboutTwoComponent,
         PreventionComponent,
         SpreadComponent,
         OutbreakComponent,

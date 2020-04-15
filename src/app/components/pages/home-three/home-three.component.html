@@ -3,7 +3,7 @@
 <section class="hero-banner">
     <div class="container">
         <div class="hero-banner-content">
-            <h1>Chif sou Kowona viris</h1>
+            <h1>Chif sou Kowonaviris</h1>
             <div class="banner-box-list">
                 <div class="row">
                     <div class="col-lg-3 col-sm-6 col-md-6">
@@ -11,7 +11,7 @@
                             <div class="icon">
                                 <img src="assets/img/icon5.png" alt="icon">
                             </div>
-                            <h3 class="odometer" data-count="439">00</h3>
+                            <h3 class="odometer" attr.data-count="{{aggrTotalTests}}">00</h3>
                             <p>Total Tès</p>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                             <div class="icon">
                                 <img src="assets/img/icon6.png" alt="icon">
                             </div>
-                            <h3 class="odometer" data-count="40">00</h3>
+                            <h3 class="odometer" attr.data-count="{{aggrConfirmedCases}}">00</h3>
                             <p>Ka Konfime</p>
                         </div>
                     </div>
@@ -50,39 +50,36 @@
             <div class="img-container ml-auto mr-auto">
                 <img src="assets/img/haiti-map.png" alt="image">
                 <div class="number-ovverlay sud">
-                    <p class="pt-1 text-white odometer" data-count="8">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.sud.confirmedCases}}">00</p>
                 </div>
                 <div class="number-ovverlay grand-anse">
-                    <p class="pt-1 text-white odometer" data-count="47">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.grandAnse.confirmedCases}}">00</p>
                 </div>
                 <div class="number-ovverlay sud-est">
-                    <p class="pt-1 text-white odometer" data-count="47">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.sudEst.confirmedCases}}">00</p>
                 </div>
                 <div class="number-ovverlay nippes">
-                    <p class="pt-1 text-white odometer" data-count="47">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.nippes.confirmedCases}}">00</p>
                 </div>
                 <div class="number-ovverlay ouest">
-                    <p class="pt-1 text-white odometer" data-count="47">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.ouest.confirmedCases}}">00</p>
                 </div>
                 <div class="number-ovverlay centre">
-                    <p class="pt-1 text-white odometer" data-count="14">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.centre.confirmedCases}}">00</p>
                 </div>
                 <div class="number-ovverlay artibonite">
-                    <p class="pt-1 text-white odometer" data-count="47">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.artibonite.confirmedCases}}">00</p>
                 </div>
                 <div class="number-ovverlay nord-est">
-                    <p class="pt-1 text-white odometer" data-count="47">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.nordEst.confirmedCases}}">00</p>
                 </div>
                 <div class="number-ovverlay nord">
-                    <p class="pt-1 text-white odometer" data-count="47">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.nord.confirmedCases}}">00</p>
                 </div>
                 <div class="number-ovverlay nord-ouest">
-                    <p class="pt-1 text-white odometer" data-count="47">00</p>
+                    <p class="pt-1 text-white odometer" attr.data-count="{{regions.nordOuest.confirmedCases}}">00</p>
                 </div>
             </div>
-            <!-- <img src="assets/img/haiti-map.png" alt="image"> -->
-            {{regions.sud.totalTests}}
-            {{regions.sud.confirmedCases}}
         </div>
     </div>
 </section>

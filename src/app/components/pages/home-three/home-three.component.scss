@@ -1,0 +1,74 @@
+$tabletViewportWidth: 48em; // 768px
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 850px;
+    max-height: 638px;
+}
+
+.number-ovverlay {
+    position: absolute;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    background-color: indianred;
+}
+
+.sud {
+    top: 82%;
+    left: 21%;
+}
+
+.grand-anse {
+    top: 60%;
+    left: 5%;
+}
+
+.sud-est {
+    top: 83%;
+    left: 61%;
+}
+
+.nippes {
+    top: 63%;
+    left: 38%;
+}
+
+.ouest {
+    top: 62%;
+    left: 66%;
+}
+
+.centre {
+    top: 44%;
+    left: 79%;
+}
+
+.artibonite {
+    top: 34%;
+    left: 62%;
+}
+
+.nord-est {
+    top: 20%;
+    left: 84%;
+}
+
+.nord {
+    top: 7%;
+    left: 68%;
+}
+
+.nord-ouest {
+    top: 3%;
+    left: 43%;
+}
+
+@media screen and(min-width: $tabletViewportWidth) {
+    .sud {
+        top: 81%;
+        left: 29%;
+    }
+}

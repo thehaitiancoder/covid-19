@@ -32,13 +32,13 @@ $tabletViewportWidth: 48em; // 768px
 }
 
 .nippes {
-    top: 63%;
-    left: 38%;
+    top: 65%;
+    left: 36%;
 }
 
 .ouest {
-    top: 62%;
-    left: 66%;
+    top: 64%;
+    left: 68%;
 }
 
 .centre {
@@ -57,8 +57,8 @@ $tabletViewportWidth: 48em; // 768px
 }
 
 .nord {
-    top: 7%;
-    left: 68%;
+    top: 11%;
+    left: 69%;
 }
 
 .nord-ouest {
@@ -70,5 +70,50 @@ $tabletViewportWidth: 48em; // 768px
     .sud {
         top: 81%;
         left: 29%;
+    }
+
+    .grand-anse {
+        top: 70%;
+        left: 22%;
+    }
+
+    .sud-est {
+        top: 83%;
+        left: 61%;
+    }
+
+    .nippes {
+        top: 72%;
+        left: 39%;
+    }
+
+    .ouest {
+        top: 69%;
+        left: 69%;
+    }
+
+    .centre {
+        top: 49%;
+        left: 72%;
+    }
+
+    .artibonite {
+        top: 34%;
+        left: 62%;
+    }
+
+    .nord-est {
+        top: 26%;
+        left: 75%;
+    }
+
+    .nord {
+        top: 18%;
+        left: 65%;
+    }
+
+    .nord-ouest {
+        top: 12%;
+        left: 47%;
     }
 }

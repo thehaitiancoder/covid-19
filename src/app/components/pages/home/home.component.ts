@@ -2,11 +2,11 @@ import { Component, OnInit } from "@angular/core";
 import { Regions } from "../../../models/regions";
 
 @Component({
-    selector: "app-home-three",
-    templateUrl: "./home-three.component.html",
-    styleUrls: ["./home-three.component.scss"],
+    selector: "app-home",
+    templateUrl: "./home.component.html",
+    styleUrls: ["./home.component.scss"],
 })
-export class HomeThreeComponent implements OnInit {
+export class HomeComponent implements OnInit {
     regions: Regions = {
         sud: {
             totalTests: 8,

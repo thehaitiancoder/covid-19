@@ -71,8 +71,29 @@ export class HomeComponent implements OnInit {
     };
     aggrTotalTests: Number = 453;
     aggrConfirmedCases: Number = 41;
+    allTooltips: Array<String> = [];
 
     constructor() {}
 
-    ngOnInit(): void {}
+    ngOnInit(): void {
+        this.generateTooltips(this.regions);
+    }
+
+    generateTooltips(r: Regions) {
+        for (let index = 0; index < 10; index++) {
+            let tooltipContent = `<div>
+            <p class="text-white text-muted mb-0">Tès Ki Fèt: ${
+                Object.values(r)[index].totalTests
+            }</p>
+            <p class="text-white text-muted mb-0">Ka Konfime: ${
+                Object.values(r)[index].confirmedCases
+            }</p>
+            <p class="text-white text-muted mb-0">Moun Mouri: ${
+                Object.values(r)[index].death
+            }</p>
+            </div>`;
+
+            this.allTooltips.push(tooltipContent);
+        }
+    }
 }

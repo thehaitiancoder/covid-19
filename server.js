@@ -8,6 +8,4 @@ app.use(express.static(path.join(__dirname, "dist")));
 app.get("/", (req, res) => res.sendFile("dist", index.html));
 app.get("*", (req, res) => res.redirect("/"));
 
-app.listen(port, () =>
-    console.log(`App listening at http://localhost:${port}`)
-);
+app.listen(port, () => console.log(`App listening on port ${port}`));

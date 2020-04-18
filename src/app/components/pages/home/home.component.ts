@@ -21,19 +21,19 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
         nippes: {
-            totalTests: 16,
+            totalTests: 19,
             confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
         },
         sudEst: {
-            totalTests: 22,
+            totalTests: 24,
             confirmedCases: 4,
             death: 0,
             deathPercentage: 0,
         },
         ouest: {
-            totalTests: 317,
+            totalTests: 325,
             confirmedCases: 24,
             death: 1,
             deathPercentage: 4,
@@ -52,7 +52,7 @@ export class HomeComponent implements OnInit {
         },
         nordEst: {
             totalTests: 24,
-            confirmedCases: 7,
+            confirmedCases: 8,
             death: 2,
             deathPercentage: 29,
         },
@@ -69,8 +69,8 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 485;
-    aggrConfirmedCases: Number = 43;
+    aggrTotalTests: Number = 498;
+    aggrConfirmedCases: Number = 44;
     allTooltips: Array<String> = [];
 
     constructor() {}

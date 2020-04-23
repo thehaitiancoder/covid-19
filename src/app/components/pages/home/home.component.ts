@@ -9,7 +9,7 @@ import { Regions } from "../../../models/regions";
 export class HomeComponent implements OnInit {
     regions: Regions = {
         sud: {
-            totalTests: 8,
+            totalTests: 9,
             confirmedCases: 0,
             death: 0,
             deathPercentage: 0,
@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
         nippes: {
-            totalTests: 19,
+            totalTests: 20,
             confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
@@ -33,25 +33,25 @@ export class HomeComponent implements OnInit {
             deathPercentage: 20,
         },
         ouest: {
-            totalTests: 433,
-            confirmedCases: 37,
+            totalTests: 445,
+            confirmedCases: 41,
             death: 1,
-            deathPercentage: 3,
+            deathPercentage: 2,
         },
         centre: {
-            totalTests: 16,
+            totalTests: 17,
             confirmedCases: 1,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
-            totalTests: 52,
+            totalTests: 53,
             confirmedCases: 4,
             death: 0,
             deathPercentage: 0,
         },
         nordEst: {
-            totalTests: 42,
+            totalTests: 46,
             confirmedCases: 8,
             death: 2,
             deathPercentage: 25,
@@ -69,8 +69,8 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 642;
-    aggrConfirmedCases: Number = 58;
+    aggrTotalTests: Number = 662;
+    aggrConfirmedCases: Number = 62;
     aggrTotalDeaths: Number = 4;
     aggrTotalRecoved: Number = 2;
     allTooltips: Array<String> = [];

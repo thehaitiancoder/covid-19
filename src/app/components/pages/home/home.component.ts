@@ -35,7 +35,7 @@ export class HomeComponent implements OnInit {
         ouest: {
             totalTests: 485,
             confirmedCases: 47,
-            death: 1,
+            death: 2,
             deathPercentage: 2,
         },
         centre: {
@@ -71,7 +71,7 @@ export class HomeComponent implements OnInit {
     };
     aggrTotalTests: Number = 719;
     aggrConfirmedCases: Number = 72;
-    aggrTotalDeaths: Number = 5;
+    aggrTotalDeaths: Number = 6;
     aggrTotalRecoved: Number = 6;
     allTooltips: Array<String> = [];
 

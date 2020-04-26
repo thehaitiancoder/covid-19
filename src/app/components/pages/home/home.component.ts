@@ -9,37 +9,37 @@ import { Regions } from "../../../models/regions";
 export class HomeComponent implements OnInit {
     regions: Regions = {
         sud: {
-            totalTests: 11,
+            totalTests: 12,
             confirmedCases: 0,
             death: 0,
             deathPercentage: 0,
         },
         grandAnse: {
-            totalTests: 4,
+            totalTests: 5,
             confirmedCases: 0,
             death: 0,
             deathPercentage: 0,
         },
         nippes: {
-            totalTests: 20,
+            totalTests: 21,
             confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
         },
         sudEst: {
-            totalTests: 29,
+            totalTests: 30,
             confirmedCases: 5,
             death: 1,
             deathPercentage: 20,
         },
         ouest: {
-            totalTests: 485,
-            confirmedCases: 47,
+            totalTests: 510,
+            confirmedCases: 49,
             death: 2,
-            deathPercentage: 2,
+            deathPercentage: 4,
         },
         centre: {
-            totalTests: 27,
+            totalTests: 39,
             confirmedCases: 1,
             death: 0,
             deathPercentage: 0,
@@ -51,13 +51,13 @@ export class HomeComponent implements OnInit {
             deathPercentage: 20,
         },
         nordEst: {
-            totalTests: 46,
+            totalTests: 51,
             confirmedCases: 11,
             death: 2,
             deathPercentage: 18,
         },
         nord: {
-            totalTests: 35,
+            totalTests: 39,
             confirmedCases: 0,
             death: 0,
             deathPercentage: 0,
@@ -69,10 +69,10 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 719;
-    aggrConfirmedCases: Number = 72;
+    aggrTotalTests: Number = 769;
+    aggrConfirmedCases: Number = 74;
     aggrTotalDeaths: Number = 6;
-    aggrTotalRecoved: Number = 6;
+    aggrTotalRecoved: Number = 7;
     allTooltips: Array<String> = [];
 
     constructor() {}

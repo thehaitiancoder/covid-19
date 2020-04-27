@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Regions } from "../../../models/regions";
+import { Meta } from "@angular/platform-browser";
 
 @Component({
     selector: "app-home",
@@ -75,12 +76,20 @@ export class HomeComponent implements OnInit {
     aggrTotalRecoved: Number = 7;
     allTooltips: Array<String> = [];
 
-    constructor() {}
+    constructor(private _meta: Meta) {}
 
     ngOnInit(): void {
+        // Activating the tooltips
         this.generateTooltips(this.regions);
+
+        var metaDescription: string = `Tès Ki Fèt: ${this.aggrTotalTests} - Ka Konfime: ${this.aggrConfirmedCases} - Moun Ki Mouri: ${this.aggrTotalDeaths} - Moun Ki Geri: ${this.aggrTotalRecoved}`;
+        this._meta.addTags([
+            { name: "twitter:description", content: metaDescription },
+            { name: "og:description", content: metaDescription },
+        ]);
     }
 
+    // This will generate the tooltips for the map
     generateTooltips(r: Regions) {
         for (let index = 0; index < 10; index++) {
             let tooltipContent = `<div>

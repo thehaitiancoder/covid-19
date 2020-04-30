@@ -34,8 +34,8 @@ export class HomeComponent implements OnInit {
         },
         ouest: {
             totalTests: 534,
-            confirmedCases: 51,
-            death: 2,
+            confirmedCases: 50,
+            death: 3,
             deathPercentage: 4,
         },
         centre: {

@@ -27,51 +27,51 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
         sudEst: {
-            totalTests: 31,
+            totalTests: 32,
             confirmedCases: 5,
             death: 1,
             deathPercentage: 20,
         },
         ouest: {
-            totalTests: 514,
-            confirmedCases: 50,
+            totalTests: 534,
+            confirmedCases: 51,
             death: 2,
             deathPercentage: 4,
         },
         centre: {
-            totalTests: 41,
+            totalTests: 45,
             confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
-            totalTests: 55,
+            totalTests: 57,
             confirmedCases: 5,
             death: 1,
             deathPercentage: 20,
         },
         nordEst: {
-            totalTests: 51,
+            totalTests: 53,
             confirmedCases: 11,
             death: 2,
             deathPercentage: 18,
         },
         nord: {
-            totalTests: 39,
+            totalTests: 43,
             confirmedCases: 0,
             death: 0,
             deathPercentage: 0,
         },
         nordOuest: {
-            totalTests: 7,
+            totalTests: 8,
             confirmedCases: 1,
             death: 0,
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 776;
+    aggrTotalTests: Number = 810;
     aggrConfirmedCases: Number = 76;
-    aggrTotalDeaths: Number = 6;
+    aggrTotalDeaths: Number = 7;
     aggrTotalRecoved: Number = 8;
     allTooltips: Array<String> = [];
 

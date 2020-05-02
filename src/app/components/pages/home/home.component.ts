@@ -15,13 +15,13 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
         grandAnse: {
-            totalTests: 5,
+            totalTests: 8,
             confirmedCases: 0,
             death: 0,
             deathPercentage: 0,
         },
         nippes: {
-            totalTests: 21,
+            totalTests: 28,
             confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit {
             deathPercentage: 20,
         },
         ouest: {
-            totalTests: 562,
+            totalTests: 637,
             confirmedCases: 56,
             death: 3,
             deathPercentage: 5,
@@ -51,7 +51,7 @@ export class HomeComponent implements OnInit {
             deathPercentage: 17,
         },
         nordEst: {
-            totalTests: 53,
+            totalTests: 55,
             confirmedCases: 11,
             death: 2,
             deathPercentage: 18,
@@ -69,7 +69,7 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 848;
+    aggrTotalTests: Number = 935;
     aggrConfirmedCases: Number = 85;
     aggrTotalDeaths: Number = 8;
     aggrTotalRecoved: Number = 10;

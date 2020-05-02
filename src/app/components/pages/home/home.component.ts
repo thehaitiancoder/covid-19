@@ -33,22 +33,22 @@ export class HomeComponent implements OnInit {
             deathPercentage: 20,
         },
         ouest: {
-            totalTests: 534,
-            confirmedCases: 50,
+            totalTests: 562,
+            confirmedCases: 56,
             death: 3,
-            deathPercentage: 4,
+            deathPercentage: 5,
         },
         centre: {
-            totalTests: 45,
+            totalTests: 49,
             confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
-            totalTests: 57,
-            confirmedCases: 5,
+            totalTests: 62,
+            confirmedCases: 6,
             death: 1,
-            deathPercentage: 20,
+            deathPercentage: 17,
         },
         nordEst: {
             totalTests: 53,
@@ -58,21 +58,21 @@ export class HomeComponent implements OnInit {
         },
         nord: {
             totalTests: 43,
-            confirmedCases: 0,
-            death: 0,
-            deathPercentage: 0,
+            confirmedCases: 1,
+            death: 1,
+            deathPercentage: 100,
         },
         nordOuest: {
-            totalTests: 8,
-            confirmedCases: 1,
+            totalTests: 9,
+            confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 810;
-    aggrConfirmedCases: Number = 76;
-    aggrTotalDeaths: Number = 7;
-    aggrTotalRecoved: Number = 8;
+    aggrTotalTests: Number = 848;
+    aggrConfirmedCases: Number = 85;
+    aggrTotalDeaths: Number = 8;
+    aggrTotalRecoved: Number = 10;
     allTooltips: Array<String> = [];
 
     constructor() {}

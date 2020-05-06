@@ -1,14 +1,14 @@
 export interface Regions {
     sud: regionDetails;
-    grandAnse: regionDetails;
+    grand_Anse: regionDetails;
     nippes: regionDetails;
-    sudEst: regionDetails;
+    sud_Est: regionDetails;
     ouest: regionDetails;
     centre: regionDetails;
     artibonite: regionDetails;
-    nordEst: regionDetails;
+    nord_Est: regionDetails;
     nord: regionDetails;
-    nordOuest: regionDetails;
+    nord_Ouest: regionDetails;
 }
 
 interface regionDetails {

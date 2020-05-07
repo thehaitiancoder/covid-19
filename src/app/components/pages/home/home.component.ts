@@ -9,20 +9,20 @@ import { Regions } from "../../../models/regions";
 export class HomeComponent implements OnInit {
     regions: Regions = {
         sud: {
-            totalTests: 12,
+            totalTests: 16,
             confirmedCases: 0,
             death: 0,
             deathPercentage: 0,
         },
         grand_Anse: {
-            totalTests: 8,
+            totalTests: 9,
             confirmedCases: 0,
             death: 0,
             deathPercentage: 0,
         },
         nippes: {
-            totalTests: 28,
-            confirmedCases: 2,
+            totalTests: 30,
+            confirmedCases: 3,
             death: 0,
             deathPercentage: 0,
         },
@@ -33,31 +33,31 @@ export class HomeComponent implements OnInit {
             deathPercentage: 20,
         },
         ouest: {
-            totalTests: 724,
-            confirmedCases: 69,
+            totalTests: 755,
+            confirmedCases: 75,
             death: 6,
-            deathPercentage: 8.7,
+            deathPercentage: 8,
         },
         centre: {
-            totalTests: 49,
+            totalTests: 50,
             confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
-            totalTests: 64,
+            totalTests: 72,
             confirmedCases: 8,
             death: 2,
             deathPercentage: 25,
         },
         nord_Est: {
-            totalTests: 57,
+            totalTests: 59,
             confirmedCases: 11,
             death: 2,
             deathPercentage: 18.2,
         },
         nord: {
-            totalTests: 45,
+            totalTests: 50,
             confirmedCases: 1,
             death: 1,
             deathPercentage: 100,
@@ -69,10 +69,10 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 1037;
-    aggrConfirmedCases: Number = 101;
+    aggrTotalTests: Number = 1091;
+    aggrConfirmedCases: Number = 108;
     aggrTotalDeaths: Number = 12;
-    aggrTotalRecoved: Number = 10;
+    aggrTotalRecoved: Number = 15;
     allTooltips: Array<String> = [];
 
     constructor() {}

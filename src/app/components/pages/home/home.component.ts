@@ -10,13 +10,13 @@ export class HomeComponent implements OnInit {
     regions: Regions = {
         sud: {
             totalTests: 16,
-            confirmedCases: 1,
+            confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
         },
         grand_Anse: {
             totalTests: 9,
-            confirmedCases: 0,
+            confirmedCases: 2,
             death: 0,
             deathPercentage: 0,
         },
@@ -28,27 +28,27 @@ export class HomeComponent implements OnInit {
         },
         sud_Est: {
             totalTests: 36,
-            confirmedCases: 6,
+            confirmedCases: 7,
             death: 1,
-            deathPercentage: 16.7,
+            deathPercentage: 14.3,
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 107,
-            death: 6,
+            confirmedCases: 142,
+            death: 8,
             deathPercentage: 5.6,
         },
         centre: {
             totalTests: 50,
-            confirmedCases: 2,
+            confirmedCases: 4,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
             totalTests: 72,
-            confirmedCases: 11,
-            death: 2,
-            deathPercentage: 18.2,
+            confirmedCases: 26,
+            death: 4,
+            deathPercentage: 15.4,
         },
         nord_Est: {
             totalTests: 59,
@@ -58,9 +58,9 @@ export class HomeComponent implements OnInit {
         },
         nord: {
             totalTests: 50,
-            confirmedCases: 6,
+            confirmedCases: 8,
             death: 1,
-            deathPercentage: 16.7,
+            deathPercentage: 12.5,
         },
         nord_Ouest: {
             totalTests: 14,
@@ -69,9 +69,9 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 1160;
-    aggrConfirmedCases: Number = 151;
-    aggrTotalDeaths: Number = 12;
+    aggrTotalTests: Number = 1311;
+    aggrConfirmedCases: Number = 209;
+    aggrTotalDeaths: Number = 16;
     aggrTotalRecoved: Number = 17;
     allTooltips: Array<String> = [];
 
@@ -89,9 +89,6 @@ export class HomeComponent implements OnInit {
             let final_region_name = region_name.replace("_", "-");
             let tooltipContent = `<div>
             <p class="text-capitalize text-white text-muted mb-0">${final_region_name}</p>
-            <p class="text-white text-muted mb-0">Tès Ki Fèt: ${
-                Object.values(r)[index].totalTests
-            }</p>
             <p class="text-white text-muted mb-0">Ka Konfime: ${
                 Object.values(r)[index].confirmedCases
             }</p>

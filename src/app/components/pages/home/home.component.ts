@@ -28,25 +28,25 @@ export class HomeComponent implements OnInit {
         },
         sud_Est: {
             totalTests: 36,
-            confirmedCases: 8,
+            confirmedCases: 9,
             death: 1,
             deathPercentage: 14.3,
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 228,
+            confirmedCases: 266,
             death: 11,
             deathPercentage: 5.6,
         },
         centre: {
             totalTests: 50,
-            confirmedCases: 5,
+            confirmedCases: 6,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
             totalTests: 72,
-            confirmedCases: 27,
+            confirmedCases: 35,
             death: 5,
             deathPercentage: 15.4,
         },
@@ -69,8 +69,8 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 1669;
-    aggrConfirmedCases: Number = 310;
+    aggrTotalTests: Number = 1733;
+    aggrConfirmedCases: Number = 358;
     aggrTotalDeaths: Number = 20;
     aggrTotalRecoved: Number = 19;
     allTooltips: Array<String> = [];

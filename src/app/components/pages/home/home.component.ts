@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
     regions: Regions = {
         sud: {
             totalTests: 16,
-            confirmedCases: 3,
+            confirmedCases: 5,
             death: 0,
             deathPercentage: 0,
         },
@@ -34,44 +34,44 @@ export class HomeComponent implements OnInit {
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 396,
-            death: 12,
+            confirmedCases: 445,
+            death: 13,
             deathPercentage: 5.6,
         },
         centre: {
             totalTests: 50,
-            confirmedCases: 12,
+            confirmedCases: 13,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
             totalTests: 72,
-            confirmedCases: 52,
+            confirmedCases: 60,
             death: 5,
             deathPercentage: 15.4,
         },
         nord_Est: {
             totalTests: 59,
-            confirmedCases: 19,
+            confirmedCases: 18,
             death: 2,
             deathPercentage: 16.7,
         },
         nord: {
             totalTests: 50,
-            confirmedCases: 21,
+            confirmedCases: 22,
             death: 1,
             deathPercentage: 12.5,
         },
         nord_Ouest: {
             totalTests: 14,
-            confirmedCases: 7,
+            confirmedCases: 10,
             death: 0,
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 2120;
-    aggrConfirmedCases: Number = 533;
-    aggrTotalDeaths: Number = 21;
+    aggrTotalTests: Number = 2270;
+    aggrConfirmedCases: Number = 596;
+    aggrTotalDeaths: Number = 22;
     aggrTotalRecoved: Number = 21;
     allTooltips: Array<String> = [];
 

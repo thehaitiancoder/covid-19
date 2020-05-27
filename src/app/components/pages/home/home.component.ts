@@ -34,8 +34,8 @@ export class HomeComponent implements OnInit {
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 769,
-            death: 19,
+            confirmedCases: 880,
+            death: 21,
             deathPercentage: 5.6,
         },
         centre: {
@@ -69,9 +69,9 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 3328;
-    aggrConfirmedCases: Number = 1063;
-    aggrTotalDeaths: Number = 31;
+    aggrTotalTests: Number = 3475;
+    aggrConfirmedCases: Number = 1174;
+    aggrTotalDeaths: Number = 33;
     aggrTotalRecoved: Number = 22;
     allTooltips: Array<String> = [];
 

@@ -22,31 +22,31 @@ export class HomeComponent implements OnInit {
         },
         nippes: {
             totalTests: 30,
-            confirmedCases: 13,
+            confirmedCases: 18,
             death: 1,
             deathPercentage: 0,
         },
         sud_Est: {
             totalTests: 36,
-            confirmedCases: 33,
+            confirmedCases: 37,
             death: 2,
             deathPercentage: 14.3,
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 1023,
+            confirmedCases: 1241,
             death: 21,
             deathPercentage: 5.6,
         },
         centre: {
             totalTests: 50,
-            confirmedCases: 33,
+            confirmedCases: 60,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
             totalTests: 72,
-            confirmedCases: 85,
+            confirmedCases: 92,
             death: 5,
             deathPercentage: 15.4,
         },
@@ -58,20 +58,20 @@ export class HomeComponent implements OnInit {
         },
         nord: {
             totalTests: 50,
-            confirmedCases: 36,
-            death: 2,
+            confirmedCases: 37,
+            death: 3,
             deathPercentage: 12.5,
         },
         nord_Ouest: {
             totalTests: 14,
-            confirmedCases: 27,
+            confirmedCases: 29,
             death: 1,
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 3643;
-    aggrConfirmedCases: Number = 1320;
-    aggrTotalDeaths: Number = 34;
+    aggrTotalTests: Number = 4106;
+    aggrConfirmedCases: Number = 1584;
+    aggrTotalDeaths: Number = 35;
     aggrTotalRecoved: Number = 22;
     allTooltips: Array<String> = [];
 

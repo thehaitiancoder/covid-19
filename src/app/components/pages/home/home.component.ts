@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
         },
         grand_Anse: {
             totalTests: 9,
-            confirmedCases: 17,
+            confirmedCases: 20,
             death: 0,
             deathPercentage: 0,
         },
@@ -28,51 +28,51 @@ export class HomeComponent implements OnInit {
         },
         sud_Est: {
             totalTests: 36,
-            confirmedCases: 37,
+            confirmedCases: 40,
             death: 2,
             deathPercentage: 14.3,
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 1241,
-            death: 21,
+            confirmedCases: 1738,
+            death: 27,
             deathPercentage: 5.6,
         },
         centre: {
             totalTests: 50,
-            confirmedCases: 60,
+            confirmedCases: 61,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
             totalTests: 72,
-            confirmedCases: 92,
-            death: 5,
+            confirmedCases: 119,
+            death: 6,
             deathPercentage: 15.4,
         },
         nord_Est: {
             totalTests: 59,
-            confirmedCases: 26,
+            confirmedCases: 28,
             death: 2,
             deathPercentage: 16.7,
         },
         nord: {
             totalTests: 50,
-            confirmedCases: 37,
-            death: 3,
+            confirmedCases: 44,
+            death: 4,
             deathPercentage: 12.5,
         },
         nord_Ouest: {
             totalTests: 14,
             confirmedCases: 29,
-            death: 1,
+            death: 2,
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 4106;
-    aggrConfirmedCases: Number = 1584;
-    aggrTotalDeaths: Number = 35;
-    aggrTotalRecoved: Number = 22;
+    aggrTotalTests: Number = 5244;
+    aggrConfirmedCases: Number = 2124;
+    aggrTotalDeaths: Number = 44;
+    aggrTotalRecoved: Number = 24;
     allTooltips: Array<String> = [];
 
     constructor() {}

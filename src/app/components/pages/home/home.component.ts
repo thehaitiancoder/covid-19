@@ -34,8 +34,8 @@ export class HomeComponent implements OnInit {
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 1738,
-            death: 27,
+            confirmedCases: 1809,
+            death: 28,
             deathPercentage: 5.6,
         },
         centre: {
@@ -46,19 +46,19 @@ export class HomeComponent implements OnInit {
         },
         artibonite: {
             totalTests: 72,
-            confirmedCases: 119,
+            confirmedCases: 132,
             death: 6,
             deathPercentage: 15.4,
         },
         nord_Est: {
             totalTests: 59,
-            confirmedCases: 28,
+            confirmedCases: 32,
             death: 2,
             deathPercentage: 16.7,
         },
         nord: {
             totalTests: 50,
-            confirmedCases: 44,
+            confirmedCases: 58,
             death: 4,
             deathPercentage: 12.5,
         },
@@ -69,9 +69,9 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 5244;
-    aggrConfirmedCases: Number = 2124;
-    aggrTotalDeaths: Number = 44;
+    aggrTotalTests: Number = 5270;
+    aggrConfirmedCases: Number = 2226;
+    aggrTotalDeaths: Number = 45;
     aggrTotalRecoved: Number = 24;
     allTooltips: Array<String> = [];
 

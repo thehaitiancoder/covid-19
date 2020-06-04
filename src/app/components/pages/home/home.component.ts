@@ -10,55 +10,55 @@ export class HomeComponent implements OnInit {
     regions: Regions = {
         sud: {
             totalTests: 16,
-            confirmedCases: 51,
+            confirmedCases: 52,
             death: 0,
             deathPercentage: 0,
         },
         grand_Anse: {
             totalTests: 9,
-            confirmedCases: 30,
+            confirmedCases: 35,
             death: 0,
             deathPercentage: 0,
         },
         nippes: {
             totalTests: 30,
-            confirmedCases: 22,
+            confirmedCases: 26,
             death: 1,
             deathPercentage: 0,
         },
         sud_Est: {
             totalTests: 36,
-            confirmedCases: 43,
+            confirmedCases: 49,
             death: 2,
             deathPercentage: 14.3,
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 1994,
+            confirmedCases: 2098,
             death: 28,
             deathPercentage: 5.6,
         },
         centre: {
             totalTests: 50,
-            confirmedCases: 76,
+            confirmedCases: 77,
             death: 0,
             deathPercentage: 0,
         },
         artibonite: {
             totalTests: 72,
-            confirmedCases: 152,
-            death: 8,
+            confirmedCases: 153,
+            death: 10,
             deathPercentage: 15.4,
         },
         nord_Est: {
             totalTests: 59,
-            confirmedCases: 32,
+            confirmedCases: 34,
             death: 3,
             deathPercentage: 16.7,
         },
         nord: {
             totalTests: 50,
-            confirmedCases: 58,
+            confirmedCases: 67,
             death: 4,
             deathPercentage: 12.5,
         },
@@ -69,9 +69,9 @@ export class HomeComponent implements OnInit {
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 5562;
-    aggrConfirmedCases: Number = 2507;
-    aggrTotalDeaths: Number = 48;
+    aggrTotalTests: Number = 5717;
+    aggrConfirmedCases: Number = 2640;
+    aggrTotalDeaths: Number = 50;
     aggrTotalRecoved: Number = 24;
     allTooltips: Array<String> = [];
 

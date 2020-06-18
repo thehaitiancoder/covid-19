@@ -28,19 +28,19 @@ export class HomeComponent implements OnInit {
         },
         sud_Est: {
             totalTests: 36,
-            confirmedCases: 87,
+            confirmedCases: 100,
             death: 2,
             deathPercentage: 14.3,
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 3525,
-            death: 39,
+            confirmedCases: 3709,
+            death: 41,
             deathPercentage: 5.6,
         },
         centre: {
             totalTests: 50,
-            confirmedCases: 133,
+            confirmedCases: 158,
             death: 0,
             deathPercentage: 0,
         },
@@ -52,26 +52,26 @@ export class HomeComponent implements OnInit {
         },
         nord_Est: {
             totalTests: 59,
-            confirmedCases: 58,
+            confirmedCases: 60,
             death: 4,
             deathPercentage: 16.7,
         },
         nord: {
             totalTests: 50,
-            confirmedCases: 121,
-            death: 5,
+            confirmedCases: 130,
+            death: 9,
             deathPercentage: 12.5,
         },
         nord_Ouest: {
             totalTests: 14,
-            confirmedCases: 70,
+            confirmedCases: 84,
             death: 2,
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 9047;
-    aggrConfirmedCases: Number = 4441;
-    aggrTotalDeaths: Number = 76;
+    aggrTotalTests: Number = 9651;
+    aggrConfirmedCases: Number = 4688;
+    aggrTotalDeaths: Number = 82;
     aggrTotalRecoved: Number = 24;
     allTooltips: Array<String> = [];
 

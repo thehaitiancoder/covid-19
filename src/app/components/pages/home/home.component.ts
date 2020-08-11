@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
     regions: Regions = {
         sud: {
             totalTests: 16,
-            confirmedCases: 210,
+            confirmedCases: 211,
             death: 6,
             deathPercentage: 0,
         },
@@ -28,51 +28,51 @@ export class HomeComponent implements OnInit {
         },
         sud_Est: {
             totalTests: 36,
-            confirmedCases: 215,
+            confirmedCases: 216,
             death: 8,
             deathPercentage: 14.3,
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 5377,
+            confirmedCases: 5399,
             death: 73,
             deathPercentage: 5.6,
         },
         centre: {
             totalTests: 50,
-            confirmedCases: 378,
+            confirmedCases: 380,
             death: 5,
             deathPercentage: 0,
         },
         artibonite: {
             totalTests: 72,
-            confirmedCases: 443,
-            death: 34,
+            confirmedCases: 445,
+            death: 35,
             deathPercentage: 15.4,
         },
         nord_Est: {
             totalTests: 59,
-            confirmedCases: 180,
+            confirmedCases: 181,
             death: 5,
             deathPercentage: 16.7,
         },
         nord: {
             totalTests: 50,
-            confirmedCases: 360,
+            confirmedCases: 364,
             death: 25,
             deathPercentage: 12.5,
         },
         nord_Ouest: {
             totalTests: 14,
-            confirmedCases: 170,
+            confirmedCases: 175,
             death: 10,
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 19864;
-    aggrConfirmedCases: Number = 7611;
-    aggrTotalDeaths: Number = 182;
-    aggrTotalRecoved: Number = 4893;
+    aggrTotalTests: Number = 20023;
+    aggrConfirmedCases: Number = 7649;
+    aggrTotalDeaths: Number = 183;
+    aggrTotalRecoved: Number = 4982;
     allTooltips: Array<String> = [];
 
     constructor() {}

@@ -10,69 +10,69 @@ export class HomeComponent implements OnInit {
     regions: Regions = {
         sud: {
             totalTests: 16,
-            confirmedCases: 214,
+            confirmedCases: 226,
             death: 6,
             deathPercentage: 0,
         },
         grand_Anse: {
             totalTests: 9,
-            confirmedCases: 159,
+            confirmedCases: 162,
             death: 12,
             deathPercentage: 0,
         },
         nippes: {
             totalTests: 30,
-            confirmedCases: 136,
+            confirmedCases: 141,
             death: 5,
             deathPercentage: 0,
         },
         sud_Est: {
             totalTests: 36,
-            confirmedCases: 227,
-            death: 8,
+            confirmedCases: 257,
+            death: 9,
             deathPercentage: 14.3,
         },
         ouest: {
             totalTests: 755,
-            confirmedCases: 5523,
-            death: 81,
+            confirmedCases: 5678,
+            death: 86,
             deathPercentage: 5.6,
         },
         centre: {
             totalTests: 50,
-            confirmedCases: 387,
-            death: 6,
+            confirmedCases: 433,
+            death: 7,
             deathPercentage: 0,
         },
         artibonite: {
             totalTests: 72,
-            confirmedCases: 461,
+            confirmedCases: 485,
             death: 38,
             deathPercentage: 15.4,
         },
         nord_Est: {
             totalTests: 59,
-            confirmedCases: 195,
-            death: 5,
+            confirmedCases: 232,
+            death: 6,
             deathPercentage: 16.7,
         },
         nord: {
             totalTests: 50,
-            confirmedCases: 391,
-            death: 25,
+            confirmedCases: 447,
+            death: 26,
             deathPercentage: 12.5,
         },
         nord_Ouest: {
             totalTests: 14,
-            confirmedCases: 186,
-            death: 10,
+            confirmedCases: 197,
+            death: 11,
             deathPercentage: 0,
         },
     };
-    aggrTotalTests: Number = 21344;
-    aggrConfirmedCases: Number = 7879;
-    aggrTotalDeaths: Number = 196;
-    aggrTotalRecoved: Number = 5235;
+    aggrTotalTests: Number = 24062;
+    aggrConfirmedCases: Number = 8258;
+    aggrTotalDeaths: Number = 206;
+    aggrTotalRecoved: Number = 5870;
     allTooltips: Array<String> = [];
 
     constructor() {}
